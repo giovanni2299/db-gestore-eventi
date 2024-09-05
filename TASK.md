@@ -23,4 +23,4 @@ soluzione: SELECT * FROM `tags` INNER JOIN `events` ON `events`.`price`;
 ## Selezionare tutte le location e mostrare quanti eventi si sono tenute in ognuna di esse (82)
 soluzione: SELECT * FROM `locations` INNER JOIN `events`;
 ## Selezionare tutti i partecipanti per l’evento “Concerto Classico Serale” (slug: concerto-classico-serale, id: 34) (30)
-soluzione: SELECT * FROM `bookings` WHERE event_id = 34;
+soluzione: SELECT * FROM `bookings` WHERE event_id = 34; 
